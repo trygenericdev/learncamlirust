@@ -1,0 +1,9 @@
+[package]
+
+name = "camlirust"
+version = "0.0.1"
+authors = ["Generic Dev <trygenericdev@gmail.com>"]
+
+
+[lib]
+name = "camli"
