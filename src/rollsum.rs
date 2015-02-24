@@ -106,8 +106,8 @@ mod test {
 
     #[bench]
     fn bench_roll(b: &mut Bencher) {
-        let mut buf: Vec<u8> = Vec::with_capacity(2 << 20);
-        for i in range(0, 2<<20) {
+        let mut buf: Vec<u8> = Vec::with_capacity(5 << 20);
+        for i in range(0, 5<<20) {
             buf.push(0u8)
         }
         thread_rng().fill_bytes(buf.as_mut_slice());
